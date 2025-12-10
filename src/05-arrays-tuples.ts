@@ -6,11 +6,23 @@
 
 //type inference
 
-const fruit = ["apple", "banana"]
-const number = [34,54]
-fruit.push("mango")
-number.push(12)
+// const fruit = ["apple", "banana"]
+// const number = [34,54]
+// fruit.push("mango")
+// number.push(12)
 
-const myArr: (string | number)[]  = [12,43,"aj"]
-myArr.push("bj")
-console.log(myArr)
+// const myArr: (string | number)[]  = [12,43,"aj"]
+// myArr.push("bj")
+// console.log(myArr)
+
+interface Person {
+    firstName: string,
+    lastName: string,
+    age?:number
+}
+
+const myArr2:Person[] = [{firstName:"Ajharul", lastName:"islam", age:22}]
+myArr2.push({firstName:"kamrul", lastName:"hasan"})
+
+console.log(myArr2)
+console.log(myArr2.length)
