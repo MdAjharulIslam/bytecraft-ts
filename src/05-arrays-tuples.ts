@@ -26,3 +26,10 @@ myArr2.push({firstName:"kamrul", lastName:"hasan"})
 
 console.log(myArr2)
 console.log(myArr2.length)
+
+// tuples
+//array with fixed size and types
+
+type myCustomTuplesType = [string,string,number]
+const muCustomTuples: myCustomTuplesType= ["ajharul","islam", 22]
+console.log(muCustomTuples)
