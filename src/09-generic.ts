@@ -51,3 +51,6 @@ function pair<T,U>(key:T, val:U):[T,U]{
 }
 
 console.log(pair("ajh","harul"))
+
+// Generics in TypeScript allow the output type to depend on the input type.
+// The input type and the output type are related, not necessarily the same every time.
