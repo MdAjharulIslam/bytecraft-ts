@@ -25,3 +25,4 @@ form.addEventListener("submit", (e) => {
     console.log(nameValue, ageValue);
 });
 export {};
+//Type casting (type assertion) tells TypeScript to treat a value as a specific type without changing the value itself.
