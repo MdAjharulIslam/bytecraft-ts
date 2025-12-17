@@ -33,6 +33,6 @@ console.log(title)
 const url2 = "https://jsonplaceholder.typicode.com/posts"
 dataFetch<Post>(url2).
 then(data=>{
-    const body = data.map(post=>post.body)
+    const body = data.map(post=>post.body) 
 console.log(body)
 })
